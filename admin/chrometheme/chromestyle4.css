@@ -1,0 +1,88 @@
+.chromestyle{
+width: 99%;
+font-weight: bold;
+font-family: Tahoma, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:bold;
+white-space:nowrap;
+letter-spacing: 3px;  
+
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+width: 100%;
+background-color:#ffffff ; /*THEME CHANGE HERE*/
+padding: 0 5;
+margin: 0; 
+text-align: center; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li{
+display: inline; 
+}
+
+.chromestyle ul li a{
+color: #E9A3A3 ;
+padding: 5px 10px;
+margin: 0; 
+text-decoration: none;
+border-right: 0px solid #E8BEBE; /*THEME CHANGE HERE*/
+}
+
+
+.chromestyle ul li a:hover{
+color: #FF0000 ;
+/*background: url(chromebg4-over.gif) center center repeat-x; /*THEME CHANGE HERE*/
+}
+
+.chromestyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " v";
+/*content: " " url(downimage.gif); /*uncomment this line to use an image instead*/
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #F5F6F8; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+line-height:18px;
+z-index:100;
+background-color: #F5F6F8;
+width: 200px;
+visibility: hidden;
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); /*Add Shadow in IE. Remove if desired*/
+}
+
+
+.dropmenudiv a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border: 0px solid #E8BEBE; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: #E9A3A3;
+font-weight: bold;
+font-family: Tahoma, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:bold;
+white-space:nowrap;
+letter-spacing: 3px;  
+
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #FFCCCC;
+}

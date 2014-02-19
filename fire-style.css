@@ -1,0 +1,138 @@
+
+html, td { font-family:verdana; font-size:12px; color:#000; }
+
+body {
+margin:0;padding:0; 
+scrollbar-face-color:      #FCFCFC;
+scrollbar-highlight-color:  #1E69AE;
+scrollbar-shadow-color:     #1E69AE;
+scrollbar-3Dlight-color:    #FFFFFF;
+scrollbar-arrow-color:      #1E69AE;
+scrollbar-track-color:      #Ffffff;
+scrollbar-darkshadow-color: #FFFFFF;
+
+}
+
+p {padding-left:10px; padding-right:10px; text-align: justify; line-height: 180%; margin-bottom:15px;margin-top:10px; }
+
+ul {margin-top:0px; margin-bottom:5px;}
+li {padding-right:50px; margin-bottom:5px;text-align:justify;}
+
+form { 	margin:0px; padding:0px; }
+
+#date {font-size:10px;color:#999999;}
+#head {font-size:20px;color:#cc0000; }
+#question {font-size:14px;color:#dd0000; font-weight:bold; }
+#ads {font-size:16px;color:#cc0000; }
+#ad-head {font-size:18px;color:#000000;font-weight:bold;}
+
+#detail-td { width:40%; text-align:right; padding-right:10px; background:#f4f4f4;}
+#detail-td2 { width:60%; font-weight:bold; text-align:left; padding-left:10px; background:#FFEFE6;}
+
+#post {width:180px; text-align:right; }
+#ftxt {width:80%}
+#stxt {width:30%}
+#ntxt {width:10%}
+#chk {border:0px; background:transparent;margin-right:10px;}
+
+#link { font-size:12px; color:#007EE6; }
+#link a { text-decoration: underline;color:#1E69AE; font-weight:bold; font-size:14px;}
+#link a:hover { text-decoration: none; color:#007EE6;}
+
+#page { font-size:11px; color:#000; margin:5px; }
+#page a {
+    color:             #0000ff;
+    text-decoration:   none;
+    font-size:         11px;
+    border:            #EBEBF3 1px solid ;
+    background-color:  #EFF5FA;
+	padding:           2px 4px 4px 4px;
+ 
+}
+#page a:focus, a:hover {
+    color:            #ff0000;
+    text-decoration:  none;
+  
+}
+
+#footer { font-size:12px; color:#8CB55B; }
+#footer a { text-decoration: underline;color:#0000ff; }
+#footer a:hover { text-decoration: none; color:#333;}
+
+#tos { font-size:10px; color:#999; }
+#tos a { text-decoration: underline;color:#999; }
+#tos a:hover { text-decoration: none; color:#333;}
+
+/* used in Search page  */
+#tdleft { width:30%; text-align:right; padding-right:10px; }
+#tdright{ width:70%; text-align:left; padding-right:10px; }
+
+
+a.black, a:visited.black { text-decoration:none;color:#007EE6; }
+a:hover.black { text-decoration: underline; color:#333;}
+
+a.img, a:visited.img { text-decoration:none;border-bottom:0px solid blue;  }
+a:hover.img { text-decoration: underline;border-bottom:2px solid #007EE6; }
+
+a.order { text-decoration:none;color:#000; }
+a:hover.order { text-decoration: underline; color:#000;}
+
+
+
+input, textarea {border:1 solid #cccccc; border-style:groove;background:#Fefefe;font-size:15px;font-weight: bold; }
+.chk {border:0px; background:transparent;}
+
+.bt {border:1px ridge #cccccc;background:#F4f4f4;font-size:14px;font-weight: normal;}
+
+#adlist {width:100%;height:235px;}
+
+#maindiv {padding-left:10px;padding-top:10px;padding-right:5px;padding-bottom:0px;width:1000px;align:center;}
+
+h3 {margin-left:10px;margin-right:10px; padding-bottom:0px;padding-top:5px;color:#1E69AE;
+    font-size:20px;font-weight:normal; border-bottom:1px solid gray; letter-spacing:2px;
+	background:url(images/headingbg.gif) no-repeat; background-position:right;
+	}
+
+
+
+.solidblockmenu{ margin: 0; padding: 0; float: left; font: bold 13px verdana; width: 100%; 
+	background:url(images/top-men-bg.gif) center center repeat-x;
+}
+
+.solidblockmenu li{ display: inline; }
+
+.solidblockmenu li a{
+float: left; 
+color: white;
+padding-left: 20px;
+padding-right:20px;
+padding-top:0px;
+padding-bottom:0px;
+text-decoration: none;
+height:30px;
+border-right: 1px solid white;
+margin:-8 0 0 0;
+}
+
+
+.solidblockmenu li a:hover, .solidblockmenu li .current
+{ color: black; background: transparent url(images/top-men-sel.gif) center center repeat-x; }
+
+
+a.rightMenu{
+display:block;
+width:100%; 
+height:20px; 
+padding-top:5px;
+padding-bottom:5px;
+padding-bottom:0 ;
+padding-left:10px;
+text-decoration:none;
+border-bottom:0px solid #E8E8E8; 
+font-size:11px; color:#1E69AE; 
+font-weight:bold; 
+}
+
+a:hover.rightMenu  {background:#FFF9E1; color:#BB0000;}
+
+#mm {border:1px solid #E8E8E8; border-top:0;height:25px;padding-top:2px;}
